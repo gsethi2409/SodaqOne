@@ -79,6 +79,7 @@ void setupLoRa(){
   // OTAA
   setupLoRaOTAA();
   LoRaBee.setSpreadingFactor(11);
+  LoRaBee.setPowerIndex(1);
 }
 
 void sendPacket(String packet){
