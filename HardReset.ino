@@ -11,3 +11,5 @@ bool resetLora() {
   sodaq_wdt_safe_delay(1000);
   initLora();
 }
+
+/*For V2, connect RESET pin to Ground while board is powered*/
