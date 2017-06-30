@@ -13,3 +13,4 @@ bool resetLora() {
 }
 
 /*For V2, connect RESET pin to Ground while board is powered*/
+/*For factory reset- use "sys factoryRESET" command through serial monitor*/
