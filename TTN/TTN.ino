@@ -22,7 +22,7 @@ void setup() {
 }
 
 void setupLoRa(){
-  LoRaBee.setSpreadingFactor(7);
+  LoRaBee.setSpreadingFactor(9);
 }
 
 void sendPacket(String packet){
@@ -72,6 +72,6 @@ void loop() {
   String packet = "SODAQ";
   sendPacket(packet);
 
-  delay(30000);
+  delay(5000);
 }
 
